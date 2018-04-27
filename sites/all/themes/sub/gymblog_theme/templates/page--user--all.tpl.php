@@ -154,7 +154,7 @@
                   <p>Please login with your existing CrossFit ID (from the Open, Judges Course, or a seminar registration). If you are new, create an account.</p>
                   <?php print(drupal_render($login_form)); ?>
                   <div class="user-form-btn">
-                    <a href="#register-form"><?php print t('Create An Account'); ?></a>
+                    <button class="btn create-account-btn"><?php print t('Create An Account'); ?></button>
                   </div>
                   <div class="forgot-password-link"><a href="#forgot-password"><?php print t('Forgot password?'); ?></a></div>
                 </div>
@@ -162,6 +162,9 @@
               <div class="register-form form-box" id="register-form">
                 <div class="form-container">
                   <?php print(drupal_render($register_form)); ?>
+                  <div class="user-form-btn">
+                    <button class="btn login-btn"><?php print t('Back To Login'); ?></button>
+                  </div>
                 </div>
               </div>
               <div class="forgot-password-form form-box" id="forgot-password">
