@@ -1,0 +1,133 @@
+/* line 3, ../sass/_mixin.scss */
+body.html {
+  font-size: 14px;
+  line-height: 1.42857143;
+}
+
+/* line 3, ../sass/user.scss */
+.big-picture {
+  background-image: url("../images/kettlebell-swings.jpg");
+  background-size: cover;
+  width: 100%;
+  background-position: center;
+  min-height: 100vh;
+  perspective: 800px;
+  padding: 50px 0;
+}
+
+/* line 15, ../sass/user.scss */
+.user-form-wrapper {
+  width: 420px;
+  margin: auto;
+  border: 1px solid #C4C4C4;
+  color: #000;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #fff), color-stop(10%, #fff), color-stop(50%, rgba(255, 255, 255, 0.6)));
+  background: -webkit-linear-gradient(top, #fff 0, #fff 10%, rgba(255, 255, 255, 0.6) 50%);
+  background: linear-gradient(to bottom, #fff 0, #fff 10%, rgba(255, 255, 255, 0.6) 50%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#99ffffff', GradientType=0);
+}
+/* line 24, ../sass/user.scss */
+.user-form-wrapper .form-heading {
+  background-color: rgba(255, 255, 255, 0.95);
+  text-align: center;
+  padding: 20px 0;
+  border-bottom: 1px solid #C4C4C4;
+  font-size: 3rem;
+  font-weight: bold;
+}
+/* line 32, ../sass/user.scss */
+.user-form-wrapper .user-account-form {
+  padding: 30px;
+}
+/* line 34, ../sass/user.scss */
+.user-form-wrapper .user-account-form h4 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  margin-top: 0px;
+}
+/* line 40, ../sass/user.scss */
+.user-form-wrapper .user-account-form .form-control {
+  display: block;
+  width: 100%;
+  padding: 8px;
+  padding-left: 14px;
+  font-size: 16px;
+  font-size: 1.6rem;
+  line-height: 1.42857;
+  height: auto;
+  font-weight: 300;
+  color: #4A4A4A;
+  vertical-align: middle;
+  background-color: #FFF;
+  background-position-x: left;
+  background-position-y: center;
+  background-position: left 14px center;
+  background-repeat: no-repeat;
+  border: 1px solid #C4C4C4;
+  border-radius: 0;
+  -webkit-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+  transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+/* line 61, ../sass/user.scss */
+.user-form-wrapper .user-account-form .form-control-ms-input-placeholder {
+  color: #C4C4C4;
+}
+/* line 64, ../sass/user.scss */
+.user-form-wrapper .user-account-form .form-control::-webkit-input-placeholder {
+  color: #C4C4C4;
+}
+/* line 67, ../sass/user.scss */
+.user-form-wrapper .user-account-form .form-control::-moz-placeholder {
+  color: #C4C4C4;
+}
+/* line 72, ../sass/user.scss */
+.user-form-wrapper .user-account-form .form-item.form-group > label {
+  display: none;
+}
+/* line 76, ../sass/user.scss */
+.user-form-wrapper .user-account-form .btn {
+  display: block;
+  width: 100%;
+  border: 0;
+  font-size: 1.2rem;
+  font-weight: 600;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  text-transform: uppercase;
+  background-image: none;
+  border: 1px solid transparent;
+  letter-spacing: 1px;
+  border-radius: 0;
+  padding: 14px 0;
+  background: #1a1a1a;
+  color: #fff;
+}
+/* line 93, ../sass/user.scss */
+.user-form-wrapper .user-account-form .btn.create-account-btn {
+  margin-top: 20px;
+}
+/* line 96, ../sass/user.scss */
+.user-form-wrapper .user-account-form .btn span {
+  display: none;
+}
+/* line 99, ../sass/user.scss */
+.user-form-wrapper .user-account-form .btn:hover {
+  background: #000;
+  color: #f2f2f2;
+}
+/* line 104, ../sass/user.scss */
+.user-form-wrapper .user-account-form .forgot-password-link {
+  text-align: right;
+  margin-top: 5px;
+}
+/* line 107, ../sass/user.scss */
+.user-form-wrapper .user-account-form .forgot-password-link a {
+  color: #000;
+  text-decoration: underline;
+}
+/* line 113, ../sass/user.scss */
+.user-form-wrapper .register-form, .user-form-wrapper .forgot-password-form {
+  display: none;
+}

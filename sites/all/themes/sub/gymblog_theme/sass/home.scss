@@ -1,0 +1,72 @@
+@import 'mixin';
+
+.front-page-banner {
+  background-image: url('../images/kettlebell-swings.jpg');
+  background-size: cover;
+  width: 100%;
+  height: 80vh;
+  overflow: hidden;
+  position: relative;
+  background-attachment: fixed;
+  // &::before {
+  //   content: "";
+  //   position: absolute;
+  //   z-index: 2;
+  //   width: 50%;
+  //   left: 0;
+  //   top: auto;
+  //   bottom: 0;
+  //   // height: 10vh;
+  //   // border-left: 50px solid transparent;  /* left arrow slant */
+  // 	// border-right: 50px solid transparent; /* right arrow slant */
+  // 	// border-bottom: 50px solid #2f2f2f; /* bottom, add background color here */
+  // 	// font-size: 0;
+  // 	// line-height: 0;
+  //   // width: 0;
+  // 	// height: 0;
+  //
+  //   width: 50%;
+  //   height: 40px;
+  //   background: lightblue;
+  //   transform: skew(50deg);
+  // }
+  &::after {
+    background: rgba(0, 0, 0, 0) -webkit-linear-gradient(right bottom, #ffffff 50%, transparent 50%) repeat scroll 0 0;
+    background: rgba(0, 0, 0, 0) linear-gradient(to left top, #ffffff 50%, transparent 50%) repeat scroll 0 0;
+    content: "";
+    height: 60px;
+    right: 0;
+    position: absolute;
+    bottom: 0px;
+    width: 50%;
+    opacity: 1;
+    z-index: 2;
+  }
+  &::before {
+    background: rgba(0, 0, 0, 0) -webkit-linear-gradient(left bottom, #ffffff 50%, transparent 50%) repeat scroll 0 0;
+    background: rgba(0, 0, 0, 0) linear-gradient(to right top, #ffffff 50%, transparent 50%) repeat scroll 0 0;
+    content: "";
+    height: 60px;
+    left: 0;
+    position: absolute;
+    bottom: 0px;
+    width: 50%;
+    opacity: 1;
+    z-index: 2;
+  }
+  .front-banner-overlay {
+    background: rgba(0, 0, 0, 0) linear-gradient(to right, #1e5799 0%, #3ccdbb 0%, #16c9f6 100%) repeat scroll 0 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0.6;
+  }
+  .banner-container {
+    position: relative;
+    z-index: 5;
+    color: #fff;
+  }
+}

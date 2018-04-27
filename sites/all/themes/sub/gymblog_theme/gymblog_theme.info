@@ -23,7 +23,7 @@ regions[page_bottom]    = 'Page bottom'
 ;;;;;;;;;;;;;;;;;;;;;
 ;; Stylesheets
 ;;;;;;;;;;;;;;;;;;;;;
-;stylesheets[all][] = css/basic_layout.css
+stylesheets[all][] = css/basic_layout.css
 ;stylesheets[all][] = css/page_layout.css
 
 
@@ -31,4 +31,4 @@ regions[page_bottom]    = 'Page bottom'
 ;; Javascript
 ;;;;;;;;;;;;;;;;;;;;;
 ;scripts[] = js/jquery.matchHeight.js
-;scripts[] = js/general.js
+scripts[] = js/general.js
